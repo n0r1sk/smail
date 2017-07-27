@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/n0r1sk/smail.svg?branch=master)](https://travis-ci.org/n0r1sk/smail)
+
 # smail
 Simple/Stupid/Short command line mailer (smail) binary for Ops usage written in golang with MX support
 
