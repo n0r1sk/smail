@@ -21,3 +21,6 @@ Usage of ./smail:
   -t value
     	To address(es)
 ```
+
+# Information
+The ```-m``` switch is mandatory!
