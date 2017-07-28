@@ -22,5 +22,13 @@ Usage of ./smail:
     	To address(es)
 ```
 
-# Information
+# Build information
+You should build the go source for productive release via the following build command to retrieve a statically linked binary including all dependencies.
+
+```
+CGO_ENABLED=0 go build  -a -ldflags '-extldflags "-static"' smail.go
+```
+
+
+# General information
 The ```-m``` switch is mandatory!
